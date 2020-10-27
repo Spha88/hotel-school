@@ -1,0 +1,40 @@
+.Hero {
+    // Space holder
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .HeroContent {
+        width: 100%;
+        max-width: 1000px;
+        color: var(--blue);
+        img {
+            padding-bottom: 2rem;
+        }
+        h1 {
+            padding-bottom: 1rem;
+            font-weight: bold;
+            font-size: 3rem;
+        }
+    }
+
+    .HeroBackground {
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.267);
+        z-index: -1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top left;
+        
+    }
+}

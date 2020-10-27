@@ -1,6 +1,7 @@
 .Header {
     color: var(--white);
     position: relative;
+    z-index: 100;
     .Content {
         background: var(--blue);
         padding: 1rem 2rem;
