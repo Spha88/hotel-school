@@ -1,0 +1,38 @@
+.AboutFrontPage {
+    background: var(--black);
+    color: var(--white);
+    .AboutContent {
+        padding: 3rem 0;
+        display: flex;
+        .Heading {
+            width: 40%;
+            .HeadingInner {
+                display: flex;
+                align-items: center;
+                padding: 1rem 1rem 1rem 0;
+                h2 {
+                    width: 50%;
+                }
+                .Line {
+                    height: 2px;
+                    background: var(--white);
+                    width: 30%;
+                }
+            }
+        }
+            
+        .Paragraph {
+            width: 50%;
+            p {
+                margin: 0;
+                padding-bottom: 3rem;
+                line-height: 2rem;
+            }
+            a {
+                display: inline-block;
+                background: var(--blue);
+                padding: 1rem 3rem;
+            }
+        }
+    }
+}
