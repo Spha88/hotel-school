@@ -1,0 +1,39 @@
+.GalleryCampusLife {
+    display: flex;
+    height: 420px;
+    align-items: stretch;
+    .GalleryLink {
+        background: green;
+        color: white;
+        width: 30%;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .CampusLifeLink {
+        background: var(--blue);
+        color: var(--white);
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .LinkTile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    .Video {
+        background: var(--black);
+        width: 40%;
+        background-size: cover;
+        background-position: top right;
+    }
+}
