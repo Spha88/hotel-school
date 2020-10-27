@@ -3,13 +3,6 @@
     background: var(--blue);
     color: var(--white);
     position: relative;
-    
-    .Container {
-        max-width: 1024px;
-        margin: 0 auto;
-        width: 100%;
-        padding: 0 1rem;
-    }
     .Content {
         display: flex;
         justify-content: space-between;

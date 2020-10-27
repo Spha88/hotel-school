@@ -2,10 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 
 import styles from './Header.module.scss';
+import Container from '../UI/Container';
 
 const Header = () => (
     <header className={styles.Header}>
-        <div className={styles.Container}>
+        <Container>
             <div className={styles.Content}>
                 <h2>Logo</h2>
                 <ul>
@@ -31,7 +32,7 @@ const Header = () => (
                     </li>
                 </ul>
             </div>
-        </div>
+        </Container>
     </header>
 );
 
