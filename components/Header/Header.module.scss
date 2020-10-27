@@ -1,10 +1,26 @@
 .Header {
-    border-bottom: 3px solid var(--dark-blue);
+    border-bottom: 3px solid var(--blue);
+    background: var(--blue);
+    color: var(--white);
     position: relative;
-    @media screen and (max-width: 450px) {
-        position: sticky;
-        top: 0;
-        background-color: #fff;
-        z-index: 90;
+    
+    .Container {
+        max-width: 1024px;
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 1rem;
+    }
+    .Content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul {
+            display: flex;
+            list-style-type: none;
+            li {
+                display: inline;
+                padding-left: 1rem;
+            }
+        }
     }
 }
