@@ -19,7 +19,10 @@ const AboutFrontPage = () => {
 
                             It's easy. I'm a paragraph. Click here to add your own text and edit me. It's easy. I'm a paragraph. Click here to add your own text and edit me. It's easy.
                         </p>
-                        <a href="/about">Read More</a>
+                        <a href="/about"><span>Read More</span> <i
+                            className='fas fa-chevron-right'
+                            aria-hidden='true'
+                        ></i></a>
                     </div>
                 </div>
             </Container>
