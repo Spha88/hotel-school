@@ -12,24 +12,24 @@ const Header = () => (
                 <h2>Logo</h2>
                 <ul>
                     <li>
-                        <NavLink href="/" activeClassName={styles.Active}>
+                        <NavLink href="/" exact activeClassName={styles.Active}>
                             <a>Home</a>
                         </NavLink>
                     </li>
                     <li>
-                        <Link href="/about">
+                        <NavLink href="/about" activeClassName={styles.Active}>
                             <a>About</a>
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link href="/contact">
+                        <NavLink href="/contact" activeClassName={styles.Active}>
                             <a>contact</a>
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link href="/courses">
+                        <NavLink href="/courses" activeClassName={styles.Active}>
                             <a>courses</a>
-                        </Link>
+                        </NavLink>
                     </li>
                 </ul>
             </div>
