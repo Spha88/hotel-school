@@ -1,5 +1,7 @@
 import Head from 'next/head';
+
 import Layout from '../components/Layout';
+import Container from '../components/UI/Container';
 
 
 export default function Home({ about }) {
@@ -9,7 +11,9 @@ export default function Home({ about }) {
                 <title>Preverance HS | about</title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <h1>About Page</h1>
+            <Container>
+                <h1>About Page</h1>
+            </Container>
         </Layout>
     );
 }

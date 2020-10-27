@@ -1,9 +1,11 @@
 .Header {
-    border-bottom: 3px solid var(--blue);
-    background: var(--blue);
     color: var(--white);
     position: relative;
     .Content {
+        background: var(--blue);
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        margin: 2rem 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -13,7 +15,13 @@
             li {
                 display: inline;
                 padding-left: 1rem;
+                a {
+                    display: inline-block;
+                }
             }
         }
+    }
+    .Active {
+        border-bottom: 2px solid var(--white);
     }
 }

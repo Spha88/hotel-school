@@ -3,6 +3,7 @@ import Link from 'next/link';
 
 import styles from './Header.module.scss';
 import Container from '../UI/Container';
+import NavLink from '../UI/NavLink';
 
 const Header = () => (
     <header className={styles.Header}>
@@ -11,9 +12,9 @@ const Header = () => (
                 <h2>Logo</h2>
                 <ul>
                     <li>
-                        <Link href="/">
+                        <NavLink href="/" activeClassName={styles.Active}>
                             <a>Home</a>
-                        </Link>
+                        </NavLink>
                     </li>
                     <li>
                         <Link href="/about">
