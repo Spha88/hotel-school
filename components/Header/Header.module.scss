@@ -1,0 +1,10 @@
+.Header {
+    border-bottom: 3px solid var(--dark-blue);
+    position: relative;
+    @media screen and (max-width: 450px) {
+        position: sticky;
+        top: 0;
+        background-color: #fff;
+        z-index: 90;
+    }
+}
