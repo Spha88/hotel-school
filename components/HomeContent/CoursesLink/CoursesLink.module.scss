@@ -1,0 +1,28 @@
+.CoursesLink {
+    display: flex;
+    height: 380px;
+    align-items: stretch;
+    .ImageOne {
+        background-size: cover;
+        width: 33.33%;
+    }
+    .Course {
+        width: 33.33%;
+        background: var(--black);
+        color: var(--white);
+    }
+    .ImageTwo {
+        width: 33.33%;
+    }
+    .LinkTile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+}

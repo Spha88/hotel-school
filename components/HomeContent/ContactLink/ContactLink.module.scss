@@ -1,0 +1,30 @@
+.ContactLink {
+    display: flex;
+    height: 300px;
+    align-items: stretch;
+    div {
+        width: 25%;
+        background: grey;
+        background-size: cover;
+    }
+    .TileTwo {
+        background: var(--white);
+        color: var(--blue);
+        .LinkTile {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            width: 100%;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: bold;
+            text-align: center;
+            span {
+                line-height: 2rem;
+            }
+        }
+    }
+    
+}
