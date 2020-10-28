@@ -8,7 +8,7 @@ const ContactLink = () => {
             <div className={styles.TileOne} style={{ backgroundImage: "url(/images/conversation.jpg)" }}></div>
             <div className={styles.TileTwo}>
                 <Link href="/contact">
-                    <a className={styles.LinkTile}><span>Contact Us  <br /> <i class="fas fa-map-marker-alt"></i></span></a>
+                    <a className={styles.LinkTile}><span>Contact Us  <br /> <i className="fas fa-map-marker-alt"></i></span></a>
                 </Link>
             </div>
             <div className={styles.TileThree} style={{ backgroundImage: "url(/images/flowers.jpg)" }}></div>

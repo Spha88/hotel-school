@@ -3,13 +3,17 @@
     height: 300px;
     align-items: stretch;
     div {
-        width: 25%;
+        width: 20%;
         background: grey;
         background-size: cover;
+    }
+    .TileOne {
+        width: 30%;
     }
     .TileTwo {
         background: var(--white);
         color: var(--blue);
+        width: 30%;
         .LinkTile {
             display: flex;
             align-items: center;

@@ -3,16 +3,18 @@
     height: 380px;
     align-items: stretch;
     .ImageOne {
-        background-size: cover;
-        width: 33.33%;
+        background-size: contain;
+        width: 30%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     .Course {
-        width: 33.33%;
+        width: 30%;
         background: var(--black);
         color: var(--white);
     }
     .ImageTwo {
-        width: 33.33%;
+        width: 40%;
     }
     .LinkTile {
         display: flex;
