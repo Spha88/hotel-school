@@ -1,0 +1,62 @@
+.AboutContent {
+    header {
+        text-align: center;
+        padding: 3rem 0 2rem;
+        h2 {
+            font-size: 1.5rem;
+        }
+    }
+    main {
+        img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 2rem;
+        }
+        .AboutContent {
+            padding: 3rem 0;
+            display: flex;
+            .Heading {
+                width: 40%;
+                .HeadingInner {
+                    display: flex;
+                    align-items: center;
+                    padding: 1rem 1rem 1rem 0;
+                    h2 {
+                        width: 50%;
+                    }
+                    .Line {
+                        height: 2px;
+                        background: var(--black);
+                        width: 30%;
+                    }
+                }
+            }
+            .Paragraph {
+                width: 50%;
+                font-size: 1.5em;
+                p {
+                    margin: 0;
+                    padding-bottom: 2rem;
+                    line-height: 2rem;
+                    letter-spacing: 0.09em;
+                    &:last-child,
+                    &:nth-child(2) {
+                        font-size: 1.1rem;
+                        line-height: 1.4rem;
+                        letter-spacing: 0.08em;
+                    }
+                }
+                a {
+                    display: inline-block;
+                    background: var(--blue);
+                    padding: 1rem 3rem;
+                    color: var(--white);
+                    span {
+                        display: inline-block;
+                        padding-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

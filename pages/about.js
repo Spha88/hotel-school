@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Layout from '../components/Layout';
 import Container from '../components/UI/Container';
+import AboutContent from '../components/AboutContent/AboutContent';
 
 
 export default function Home({ about }) {
@@ -12,7 +13,7 @@ export default function Home({ about }) {
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             <Container>
-                <h1>About Page</h1>
+                <AboutContent />
             </Container>
         </Layout>
     );
