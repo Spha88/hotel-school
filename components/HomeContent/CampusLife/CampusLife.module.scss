@@ -1,0 +1,43 @@
+.CampusLife {
+    background-color: var(--white);
+    padding: 6rem 0;
+    header {
+        text-align: center;
+        h2 {
+            text-transform: uppercase;
+        }
+    }
+    main {
+        padding-top: 3rem;
+        .CampusLifeImages {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            div {
+                width: 24%;
+                height: 100%;
+                background-size: cover;
+                transition: all 500ms ease;
+                &:nth-child(even) {
+                    height: 90%;
+                    &:hover {
+                        height: 100%;
+                    }
+                }
+            }
+        }
+        .Content {
+            padding: 3rem 0;
+            p {
+                width: 70%;
+                margin: 0 auto;
+                line-height: 2rem;
+                text-align: center;
+                font-size: 1.2rem;
+            }
+            
+        }
+
+    }
+}

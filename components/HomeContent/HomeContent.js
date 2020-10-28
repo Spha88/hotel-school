@@ -5,6 +5,7 @@ import AboutFrontPage from './AboutFrontPage/AboutFrontPage'
 import GalleryCampusLife from './GalleryCampusLife/GalleryCampusLife'
 import CoursesLink from './CoursesLink/CoursesLink'
 import ContactLink from './ContactLink/ContactLink'
+import CampusLife from './CampusLife/CampusLife'
 
 const HomeContent = () => {
     return (
@@ -13,6 +14,7 @@ const HomeContent = () => {
             <GalleryCampusLife />
             <CoursesLink />
             <ContactLink />
+            <CampusLife />
         </div>
     )
 }
