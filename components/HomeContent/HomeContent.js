@@ -6,6 +6,7 @@ import GalleryCampusLife from './GalleryCampusLife/GalleryCampusLife'
 import CoursesLink from './CoursesLink/CoursesLink'
 import ContactLink from './ContactLink/ContactLink'
 import CampusLife from './CampusLife/CampusLife'
+import Testimonials from './TestimonialsTwo/Testimonials'
 
 const HomeContent = () => {
     return (
@@ -15,6 +16,7 @@ const HomeContent = () => {
             <CoursesLink />
             <ContactLink />
             <CampusLife />
+            <Testimonials />
         </div>
     )
 }
