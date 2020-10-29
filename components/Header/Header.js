@@ -22,13 +22,18 @@ const Header = () => (
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink href="/contact" activeClassName={styles.Active}>
-                            <a>contact</a>
+                        <NavLink href="/courses" activeClassName={styles.Active}>
+                            <a>courses</a>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink href="/courses" activeClassName={styles.Active}>
-                            <a>courses</a>
+                        <NavLink href="/gallery" activeClassName={styles.Active}>
+                            <a>Gallery</a>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink href="/contact" activeClassName={styles.Active}>
+                            <a>contact</a>
                         </NavLink>
                     </li>
                 </ul>
