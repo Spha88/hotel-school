@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import Container from '../components/UI/Container';
+import CoursesContent from '../components/CoursesContent/CoursesContent';
 
 
 export default function Home({ about }) {
@@ -11,7 +12,7 @@ export default function Home({ about }) {
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             <Container>
-                <h1>Courses Page</h1>
+                <CoursesContent />
             </Container>
         </Layout>
     );

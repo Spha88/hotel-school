@@ -1,6 +1,6 @@
 :root {
   --blue: #1D3F5B;
-  --black: rgb(36, 35, 35);
+  --black: rgb(49, 49, 49);
   --black-transparent: rgba(36, 35, 35, 0.952);
   --white: rgb(245, 245, 245);
   --box-shadow: 2px 6px 19px -7px rgba(0, 0, 0, 1);
@@ -14,6 +14,7 @@ body {
   width: 100vw;
   overflow-x: hidden;
   font-family: 'Merriweather', serif;
+  color: var(--black);
 }
 
 a {

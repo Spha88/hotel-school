@@ -1,0 +1,89 @@
+.CoursesContent {
+    header {
+        text-align: center;
+        padding: 2rem 0;
+        h2 {
+            text-transform: uppercase;
+        }
+    }
+    main {
+        .RegistrationDate {
+            background-color: var(--blue);
+            color: var(--white);
+            padding: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+            border: 1px solid var(--black);
+            svg {
+                width: 100px;
+            }
+            div {
+                padding: 0 2rem;
+                text-align: center;
+                h3 {
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+                }
+                .Date {
+                    font-weight: bold;
+                    font-family: var(--roboto);
+                    font-size: 1.5rem;
+                }
+                p {
+                    font-size: 1.2rem;
+                    margin: 0;
+                    font-weight: 300;
+                }
+                
+            }
+        }
+        .Courses {
+            
+            .Course {
+                background-color:var(--white);
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 2rem;
+                .CourseImage {
+                    width: 40%;
+                    border-right: 5px solid var(--blue);
+                    background-position: center center;
+                    background-size: cover;
+                }
+                div {
+                    width: 60%;
+                    flex-shrink: 1;
+                    padding: 2rem;
+                    line-height: 1.5rem;
+                    font-size: 1.1rem;
+                    h2 {
+                        position: relative;
+                        padding-bottom: 1rem;
+                        &::after {
+                            content: '';
+                            display: block;
+                            width: 100px;
+                            height: 2px;
+                            background: var(--blue);
+                            position: absolute;
+                            left: 10px;
+                            bottom: 0;
+                        }
+                    }
+                    a {
+                        display: inline-block;
+                        padding: .5rem 2rem;
+                        background: var(--blue);
+                        color: var(--white);
+                        font-family: var(--roboto);
+                        letter-spacing: 1px;
+                        font-size: 1rem;
+                    }
+                }
+                
+            }
+        }
+    }
+}
