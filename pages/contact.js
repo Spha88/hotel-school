@@ -12,7 +12,6 @@ export default function Home({ about }) {
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             <Container>
-                <h1>Contact Us</h1>
                 <ContactContent />
             </Container>
         </Layout>

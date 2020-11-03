@@ -25,7 +25,7 @@ const ContactForm = () => {
                 <input type="text" name="phone" placeholder="Enter your phone number" />
             </div>
             <div className={styles.FormGroup}>
-                <label htmlFor="phone" className={styles.TextareaLabel}>Message</label>
+                <label htmlFor="phone" className={styles.TextareaLabel}>Enter your message</label>
                 <div className={styles.Error}></div>
                 <i className={`material-icons ${styles.inTextArea}`}>message</i>
                 <textarea name="message" cols="30" rows="10"></textarea>
