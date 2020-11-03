@@ -1,0 +1,85 @@
+.ContactForm {
+    width: 100%;
+    padding-top: 2rem;
+    .FormGroupItems {
+        width: 100%;
+        padding-bottom: 2rem;
+        display: flex;
+        justify-content: space-between;
+        .FormGroupItem {
+            width: 50%;
+            position: relative;
+            width: 45%;
+            label {
+                display: none;
+            }
+            i {
+                position: absolute;
+                top: 50%;
+                left: .5rem;
+                transform: translateY(-50%);
+            }
+            input {
+                width: 100%;
+                padding: .5rem;
+                padding-left: 3rem;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid;
+                font-size: 1rem;
+                color: var(--black);
+                font-family: var(--roboto);
+            }
+        }
+    }
+    .FormGroup {
+        margin-bottom: 2rem;
+        position: relative;
+
+        label {
+            display: none;
+        }
+        .TextareaLabel {
+            display: block;
+            font-family: var(--roboto);
+            padding-left: 3rem;
+            color: var(--black);
+        }
+        i {
+            position: absolute;
+            top: 50%;
+            left: .5rem;
+            transform: translateY(-50%);
+        }
+        i.inTextArea {
+            top: 3.5rem;
+        }
+        input, textarea {
+            width: 100%;
+            padding: .5rem;
+            padding-left: 3rem;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid;
+            font-size: 1rem;
+            resize: none;
+            font-family: var(--roboto);
+        }
+        textarea {
+            border: 1px solid;
+            margin-top: .5rem;
+            padding: 1rem 3rem;
+        }
+    }
+    .SendBtnContainer {
+        padding-left: 3rem;
+        button {
+            background: var(--blue);
+            color: var(--white);
+            border: none;
+            padding: .5rem 2rem;
+            letter-spacing: 1px;
+            font-size: 1rem;
+        }
+    }
+}

@@ -21,6 +21,8 @@ const Layout = ({ children }) => {
                 ></meta>
                 <title>Prevenance HS</title>
                 <link href={`https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Oswald:wght@300;400;500;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet`} />
+                {/** Material Icons */}
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
 
 
             </Head>
