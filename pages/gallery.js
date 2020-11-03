@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout from '../components/Layout';
-import Container from '../components/UI/Container';
+import GalleryContent from '../components/GalleryContent/GalleryContent';
 
 
 export default function Home({ about }) {
@@ -10,9 +10,9 @@ export default function Home({ about }) {
                 <title>Preverance HS | about</title>
                 <link rel='icon' href='/favicon.ico' />
             </Head>
-            <Container>
-                <h1>Gallery Page</h1>
-            </Container>
+
+            <GalleryContent />
+
         </Layout>
     );
 }
