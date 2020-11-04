@@ -59,6 +59,26 @@
         width: 40%;
         background-size: cover;
         background-position: top right;
+        overflow: hidden;
+        position: relative;
+        video {
+            width: 130%;
+            position: absolute;
+            top: 0;
+            left: -5%;
+            @include media($laptop) {
+                left: -10%;
+            }
+            @include media($laptop) {
+                height: 100%;
+                width: auto;
+            }
+            @include media($mobile) {
+                width: 100%;
+                left: 0;
+                height: auto;
+            }
+        }
     }
 
     @include media($mobile) {
