@@ -1,3 +1,4 @@
+@import '../../styles/mixin.scss';
 .Hero {
     // Space holder
     box-sizing: border-box;
@@ -7,7 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     .HeroContent {
         width: 100%;
         max-width: 1000px;
@@ -19,6 +19,15 @@
             padding-bottom: 1rem;
             font-weight: bold;
             font-size: 3rem;
+        }
+        @include media($laptop) {
+            max-width: 600px;
+        }
+        @include media($mobile) {
+            padding: 2rem;
+            h1 {
+                font-size: 2rem;
+            }
         }
     }
 
@@ -36,5 +45,8 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top left;
+        @include media($mobile) {
+            background-position: top center;
+        }
     }
 }
