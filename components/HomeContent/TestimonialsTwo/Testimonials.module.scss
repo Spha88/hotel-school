@@ -1,3 +1,5 @@
+@import '../../../styles/mixin.scss';
+
 .Testimonials {
     background-color: var(--white);
     display: flex;
@@ -40,6 +42,61 @@
             &::before {
                 font-size: 12px !important;
                 color: var(--white) !important;
+            }
+        }
+    }
+    @include media($laptop) {
+
+        .Pattern {
+            width: 10%;
+        }
+        .TestimonialsContent {
+            width: 90%;
+            padding: 3rem 5rem;
+            .TestimonialsContainer {
+                .Slide {
+                    p {
+                        width: 90%;
+                        font-size: 1.2rem;
+                        margin-right: 2rem;
+                    }
+                }
+            }
+        }
+    }
+    @include media($tablet) {
+        .TestimonialsContent {
+            .TestimonialsContainer {
+                .Slide {
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    @include media($mobile) {
+
+        .Pattern {
+            display: none;
+        }
+        .TestimonialsContent {
+            width: 100%;
+            padding: 3rem;
+            .TestimonialsContainer {
+                .Slide {
+                    p {
+                        width: 100%;
+                        font-size: 1.1rem;
+                        margin-right: 2rem;
+                        padding: 0;
+                        text-align: center;
+                    }
+                    h3 {
+                        text-align: right;
+                        padding-bottom: 2rem;
+                    }
+                }
             }
         }
     }

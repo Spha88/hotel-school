@@ -19,6 +19,9 @@
     }
     .ImageTwo {
         width: 40%;
+        @include media($mobile) {
+            display: none;
+        }
     }
     .LinkTile {
         display: flex;
