@@ -1,3 +1,4 @@
+@import '../../../styles/mixin.scss';
 .AboutFrontPage {
     background: var(--black-transparent);
     color: var(--white);
@@ -21,7 +22,6 @@
                 }
             }
         }
-            
         .Paragraph {
             width: 50%;
             font-size: 1.3em;
@@ -39,6 +39,28 @@
                     display: inline-block;
                     padding-right: 1rem;
                 }
+            }
+        }
+        @include media($laptop) {
+            display: block;
+            max-width: 600px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 3rem 0;
+            .Heading {
+                width: 100%;
+            }
+            .Paragraph {
+                width: 100%;
+            }
+        }
+        @include media($mobile) {
+            .Paragraph {
+                font-size: 1rem;
+                p {
+                    line-height: 1.5rem;
+                    padding-bottom: 2rem;
+                };
             }
         }
     }

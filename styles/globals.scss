@@ -1,3 +1,5 @@
+@import './mixin.scss';
+
 :root {
   --blue: #1D3F5B;
   --black: rgb(49, 49, 49);
@@ -40,7 +42,7 @@ h1, h2, h3, h4, h5, h6, ul {
 
 * {
   box-sizing: border-box;
-  // border: 1px solid #f00 !important;
+  @include transition;
 }
 
 /* NPprogress styles  */
