@@ -15,7 +15,11 @@ const Header = () => {
         <header className={styles.Header}>
 
             <div className={styles.Content}>
-                <h2>Logo</h2>
+                <div className={styles.LogoContainer}
+                    style={{ backgroundImage: "url(/images/logo_new.svg" }}
+                >
+                    <img src="/images/logo_new.svg" alt="logo" />
+                </div>
                 <ul>
                     <li>
                         <NavLink href="/" exact activeClassName={styles.Active}>
@@ -45,7 +49,7 @@ const Header = () => {
                 </ul>
                 <div className={styles.BurgerIcon}>
                     <button onClick={toggleMobileNav}>
-                        <i class="material-icons">menu</i>
+                        <i className="material-icons">menu</i>
                     </button>
                 </div>
             </div>
@@ -53,7 +57,11 @@ const Header = () => {
 
 
             <div className={`${styles.MobileNav} ${openNav ? styles.OpenMobileNav : ''}`} onClick={toggleMobileNav}>
-                <h2>Logo</h2>
+                <div className={styles.LogoContainer}
+                    style={{ backgroundImage: "url(/images/logo_new.svg" }}
+                >
+                    <img src="/images/logo_new.svg" alt="logo" />
+                </div>
                 <ul>
                     <li>
                         <NavLink href="/" exact activeClassName={styles.Active}>
