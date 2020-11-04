@@ -3,20 +3,27 @@
     color: var(--white);
     top: 0;
     left: 0;
-    right: 0;
+    margin-top: 3rem;
     position: sticky !important;
     z-index: 100;
     width: 100%;
     box-sizing: border-box;
+
+    // Active class for nav items;
+    .Active {
+        background: var(--white);
+        color: var(--black);
+        font-weight: bold;
+    }
     .Content {
         background: var(--blue);
-        margin: 2rem 0;
+        margin: 3rem 0;
         display: flex;
         justify-content: space-between;
         align-items: stretch;
-        @include media($tablet){
-            display: none;
-        }
+        max-width: 1024px;
+        margin: 0 auto;
+        
         h2 {
             padding: .5rem 1rem;
         }
@@ -26,6 +33,9 @@
             padding-left: 0;
             list-style-type: none;
             font-family: 'Oswald', sans-serif;
+            @include media($tablet){
+                display: none;
+            }
             li {
                 display: inline;
                 margin: 0;
@@ -46,10 +56,68 @@
                 }
             }
         }
+        .BurgerIcon {
+            display: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include media($tablet) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            button {
+                background: transparent;
+                border: none;
+                outline: none;
+                color: var(--white);
+            }
+        }
     }
-    .Active {
-        background: var(--white);
-        color: var(--black);
-        font-weight: bold;
+    
+    
+    .MobileNav {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        top: 0;
+        right: -120%;
+        background: var(--blue);
+        h2 {
+            padding: 2rem;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-family: var(--roboto);
+            li {
+                display: inline;
+                margin: 0;
+                display: flex;
+                align-items: stretch;
+                a {
+                    padding: 10px 20px;
+                    text-transform: uppercase;
+                    font-size: .9rem;
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    transition: all 500ms ease;
+                    &:hover {
+                        background: var(--white);
+                        color: var(--black);
+                    }
+                }
+            }
+        }
+        @include media($mobile) {
+            width: 100%;
+        }
     }
+
+    .OpenMobileNav {
+        right: 0;
+    }
+    
 }
