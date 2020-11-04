@@ -1,7 +1,12 @@
+@import '../../../styles/mixin.scss';
+
 .ContactLink {
     display: flex;
     height: 300px;
     align-items: stretch;
+    @include media($laptop) {
+        height: 250px;
+    }
     div {
         width: 20%;
         background: grey;
@@ -29,6 +34,17 @@
             span {
                 line-height: 2rem;
             }
+            @include media($tablet) {
+                font-size: 1rem;
+            }
+        }
+    }
+    @include media($mobile) {
+        display: block;
+        height: auto;
+        div {
+            height: 200px;
+            width: 100% !important;
         }
     }
     

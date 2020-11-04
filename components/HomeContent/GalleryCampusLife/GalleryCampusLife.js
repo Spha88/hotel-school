@@ -19,7 +19,6 @@ const GalleryCampusLife = () => {
                 className={styles.Video}
                 style={{ backgroundImage: "url(/images/video_placeholder.jpg)" }}
             >
-
             </div>
         </div>
     )

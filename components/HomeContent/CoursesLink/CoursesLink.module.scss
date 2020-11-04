@@ -1,7 +1,11 @@
+@import '../../../styles/mixin.scss';
 .CoursesLink {
     display: flex;
     height: 380px;
     align-items: stretch;
+    @include media($laptop) {
+        height: 250px;
+    }
     .ImageOne {
         background-size: contain;
         width: 30%;
@@ -27,5 +31,16 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         font-weight: bold;
+        @include media($tablet) {
+            font-size: 1rem;
+        }
+    }
+    @include media($mobile) {
+        display: block;
+        height: auto;
+        div {
+            height: 200px;
+            width: 100% !important;
+        }
     }
 }

@@ -1,9 +1,13 @@
+@import '../../../styles/mixin.scss';
+
 .GalleryCampusLife {
     display: flex;
     height: 420px;
     align-items: stretch;
+    @include media($laptop) {
+        height: 250px;
+    }
     .GalleryLink {
-        background: green;
         color: white;
         width: 30%;
         background-size: cover;
@@ -46,11 +50,23 @@
         text-transform: uppercase;
         letter-spacing: 2px;
         font-weight: bold;
+        @include media($tablet) {
+            font-size: 1rem;
+        }
     }
     .Video {
         background: var(--black);
         width: 40%;
         background-size: cover;
         background-position: top right;
+    }
+
+    @include media($mobile) {
+        display: block;
+        height: auto;
+        div {
+            height: 200px;
+            width: 100% !important;
+        }
     }
 }

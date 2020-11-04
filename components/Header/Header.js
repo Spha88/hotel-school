@@ -1,21 +1,15 @@
 import React, { useEffect, useRef } from 'react';
-import Link from 'next/link';
 
 import styles from './Header.module.scss';
 import Container from '../UI/Container';
 import NavLink from '../UI/NavLink';
 
 const Header = () => {
-    const nav = useRef(null);
-    useEffect(() => {
-        document.onscroll = function (e) {
-            console.dir(document);
-        }
-    })
+
     return (
         <header className={styles.Header}>
             <Container>
-                <div className={styles.Content} ref={nav}>
+                <div className={styles.Content}>
                     <h2>Logo</h2>
                     <ul>
                         <li>
