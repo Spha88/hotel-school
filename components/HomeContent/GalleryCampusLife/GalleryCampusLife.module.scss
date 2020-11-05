@@ -17,13 +17,17 @@
         .LinkTile {
             transition: all 500ms ease;
             position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             &:hover {
                 background-color: var(--black-transparent);
             }
             &:after {
-                display: block;
-                content: '';
-                position: absolute;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                content: 'Gallery';
                 border: 2px solid var(--white);
                 height: 50%;
                 width: 50%;
@@ -74,9 +78,7 @@
                 width: auto;
             }
             @include media($mobile) {
-                width: 100%;
-                left: 0;
-                height: auto;
+                display: none;
             }
         }
     }

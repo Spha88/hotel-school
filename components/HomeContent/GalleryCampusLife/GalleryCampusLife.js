@@ -14,7 +14,7 @@ const GalleryCampusLife = () => {
         <div className={styles.GalleryCampusLife}>
             <div className={styles.GalleryLink} style={{ backgroundImage: "url(/images/gallery_bg.jpg" }}>
                 <Link href="/gallery">
-                    <a className={styles.LinkTile}>Gallery</a>
+                    <a className={styles.LinkTile}></a>
                 </Link>
             </div>
             <div className={styles.CampusLifeLink}>
