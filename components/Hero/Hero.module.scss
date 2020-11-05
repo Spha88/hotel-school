@@ -22,6 +22,7 @@
             padding-bottom: 1rem;
             font-weight: bold;
             font-size: 3rem;
+            text-transform: uppercase;
         }
         @include media($laptop) {
             max-width: 600px;
