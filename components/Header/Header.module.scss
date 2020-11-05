@@ -15,6 +15,15 @@
         color: var(--black);
         font-weight: bold;
     }
+    // class to add to nav bar when the upper
+    // edge is at the top of the screen
+    .Top {
+        max-width: 100% !important;
+        .LogoContainer {
+            width: 70px !important;
+            height: 40px !important;
+        }
+    }
     .Content {
         background: var(--blue);
         margin: 3rem 0;
@@ -23,6 +32,7 @@
         align-items: stretch;
         max-width: 1024px;
         margin: 0 auto;
+        @include transition;
         
         .LogoContainer {
             background-repeat: no-repeat;
@@ -31,8 +41,9 @@
             margin: 5px 5px 5px 2rem;
             width: 50px;
             height: 70px;
+            @include transition;
             img {
-                width:10px;
+                width:100%;
                 opacity: 0;
             }
         }
@@ -98,12 +109,14 @@
         .LogoContainer {
             background-repeat: no-repeat;
             background-position: center center;
+            text-align: center;
             background-size: contain;
             margin: 5px 5px 5px 1rem;
             width: 100%;
             height: 150px;
+            overflow: hidden;
             img {
-                width:10px;
+                width: 200px;
                 opacity: 0;
             }
         }

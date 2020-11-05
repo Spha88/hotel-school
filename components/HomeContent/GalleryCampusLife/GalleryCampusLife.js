@@ -1,14 +1,8 @@
-import React, { useEffect, useRef } from 'react'
+import React from 'react'
 import styles from './GalleryCampusLife.module.scss'
 import Link from 'next/link';
 
 const GalleryCampusLife = () => {
-
-    const vid = useRef(null);
-
-    useEffect(() => {
-        console.dir(vid.current);
-    }, [])
 
     return (
         <div className={styles.GalleryCampusLife}>
@@ -26,7 +20,7 @@ const GalleryCampusLife = () => {
                 className={styles.Video}
                 style={{ backgroundImage: "url(/images/video_placeholder.jpg)" }}
             >
-                <video width="100%" height="100%" loop autoPlay muted ref={vid}>
+                <video width="100%" height="100%" loop autoPlay muted>
                     <source src="/videos/video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>

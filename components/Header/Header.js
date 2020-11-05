@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import styles from './Header.module.scss';
-import Container from '../UI/Container';
 import NavLink from '../UI/NavLink';
+import Link from 'next/link';
+import $ from 'jquery';
 
 const Header = () => {
 
@@ -11,15 +12,35 @@ const Header = () => {
         setOpenNav(!openNav);
     }
 
+    useEffect(() => {
+        // Check if Nav is at the top and add or remove Top class
+        const nav = $('#desktopNav');
+        const distance = nav.offset().top;
+        const $window = $(window);
+
+        $window.scroll(function () {
+            // console.log(nav);
+            if ($window.scrollTop() >= (distance + 40)) {
+                nav.addClass(styles.Top);
+            } else {
+                nav.removeClass(styles.Top)
+            }
+        });
+    }, [])
+
     return (
         <header className={styles.Header}>
 
-            <div className={styles.Content}>
+            <div className={styles.Content} id="desktopNav">
+
                 <div className={styles.LogoContainer}
                     style={{ backgroundImage: "url(/images/logo_new.svg" }}
                 >
-                    <img src="/images/logo_new.svg" alt="logo" />
+                    <Link href="/">
+                        <a><img src="/images/logo_new.svg" alt="logo" /></a>
+                    </Link>
                 </div>
+
                 <ul>
                     <li>
                         <NavLink href="/" exact activeClassName={styles.Active}>
@@ -60,7 +81,11 @@ const Header = () => {
                 <div className={styles.LogoContainer}
                     style={{ backgroundImage: "url(/images/logo_new.svg" }}
                 >
-                    <img src="/images/logo_new.svg" alt="logo" />
+                    <Link href="/">
+                        <a>
+                            <img src="/images/logo_new.svg" alt="logo" />
+                        </a>
+                    </Link>
                 </div>
                 <ul>
                     <li>

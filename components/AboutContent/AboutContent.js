@@ -19,14 +19,24 @@ const AboutContent = () => {
                     </div>
                     <div className={styles.Paragraph}>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id veritatis maiores vitae numquam dolore ducimus nemo maxime velit harum nesciunt, debitis sapiente asperiores animi magnam!
+                            Prévenance Hotel School is a professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam accusantium dolore iusto in ea consequuntur minima culpa quod inventore. Omnis eveniet, deleniti in voluptatum quo dolor laboriosam? Sed doloribus provident amet voluptates consectetur modi rem harum deleniti, reiciendis perspiciatis alias eos recusandae ipsam itaque exercitationem, assumenda saepe cupiditate aliquid adipisci!Omnis eveniet, deleniti in voluptatum quo dolor laboriosam? Sed doloribus provident amet voluptates consectetur modi rem harum deleniti, reiciendis perspiciatis
+                            Our students have a range of excellent courses to choose from. Through our intake program we help them find just the right course and career for their personality.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nobis maxime necessitatibus hic veniam sit nostrum eius deserunt, ab vel debitis sequi molestiae ad voluptates aspernatur, neque repellendus! Necessitatibus deserunt, veniam officia harum dolore optio!
+                            Have practical fun while learning, join us for best journey of your life!
                         </p>
+
+                        <h2>Our history</h2>
+
+                        <p>We started Prévenance Hotel School as a result of our passion for excellence in service.
+                        Having been in the hospitality space for a number of years, it became clear that gaps and areas of improvement exist in our industry. We soon realised that no amount screaming, hiring and firing will improve the service offering by a number of hospitality establishments, from guest houses to hotels.
+                        </p>
+
+                        <p>Training of staff to take pride in what they do, became the only option. At the center of our curriculum is the intention to produce graduates that not only know what they do, but also take pride in their service and desire to only give their best.</p>
+
+                        <p>We have no doubt of the great impact our academy will make in the lives and careers of many young people across our country and the continent.</p>
                     </div>
                 </div>
                 <img src="/images/about2.jpg" alt="writing and studying" />

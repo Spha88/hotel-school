@@ -35,18 +35,20 @@
             }
             .Paragraph {
                 width: 50%;
-                font-size: 1.5em;
+                font-size: 1.1rem;
+                line-height: 1.4rem;
+                letter-spacing: 0.05em;
                 p {
                     margin: 0;
-                    padding-bottom: 2rem;
+                    padding-bottom: 1.5rem;
                     line-height: 2rem;
-                    letter-spacing: 0.09em;
-                    &:last-child,
-                    &:nth-child(2) {
-                        font-size: 1.1rem;
-                        line-height: 1.4rem;
-                        letter-spacing: 0.08em;
+                    letter-spacing: 0.05em;
+                    &:nth-child(1) {
+                        font-size: 1.3em;
                     }
+                }
+                h2 {
+                    margin-bottom: 1rem;
                 }
                 a {
                     display: inline-block;

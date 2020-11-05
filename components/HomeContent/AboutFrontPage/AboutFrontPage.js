@@ -16,11 +16,7 @@ const AboutFrontPage = () => {
                         </div>
                     </div>
                     <div className={styles.Paragraph}>
-                        <p>
-                            I'm a paragraph. Click here to add your own text and edit me. It's easy. I'm a paragraph. Click here to add your own text and edit me.
-
-                            It's easy. I'm a paragraph. Click here to add your own text and edit me. It's easy. I'm a paragraph. Click here to add your own text and edit me. It's easy.
-                        </p>
+                        <p>Prévenance Hotel School is a professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.</p>
                         <Link href="/about">
                             <a><span>Read More</span> <i
                                 className='fas fa-chevron-right'
