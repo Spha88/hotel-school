@@ -23,6 +23,12 @@ const CoursesContent = () => {
                         </p>
                     </div>
                 </div>
+                <div className={styles.OnlineCourses}>
+                    <h2>Online Courses</h2>
+                    <p>
+                    Our online course offering is designed to extend our services even to those who may not be able to join our physical sessions.
+                    </p>
+                </div>
                 <div className={styles.Courses}>
                     <div className={styles.Course}>
                         <div className={styles.CourseImage}
@@ -31,8 +37,13 @@ const CoursesContent = () => {
                         <div>
                             <h2>Professional Cookery</h2>
                             <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt suscipit perspiciatis veniam numquam, esse recusandae officiis magni excepturi illo corrupti earum et dolorem, quisquam atque quod ab quaerat nemo ullam?
-                                </p>
+                                This qualification has been developed for professionals in the food preparation industry (hospitality). It brings together elements of food and drink preparation and supervision.
+                            This qualification will professionalise the industry and is applicable to all sectors, from small restaurants to large-scale hotels. The qualification provides articulation with Gaming, Travel and other Tourism industries.</p>
+                            <p>
+                                The qualification is suitable for those wishing to enter the field of professional cookery.
+                                This certificate programme is also suitable for people who have already worked as a cook/chef and want to upgrade their status to a professional chef.
+
+                            </p>
                             <Link href="/contact">
                                 <a>Book Now</a>
                             </Link>
@@ -47,7 +58,9 @@ const CoursesContent = () => {
                         <div>
                             <h2>Food & Beverage Services</h2>
                             <p>
-                                Sunt suscipit perspiciatis veniam numquam, esse recusandae officiis magni excepturi illo corrupti earum et dolorem, quisquam atque quod ab quaerat nemo ullam?
+                            Food and Beverage Services is the process of preparing, presenting and serving of food and beverages to the customers.
+                            Through this course, candidates gain an internationally recognised qualification and improve their career options.
+                            
                                 </p>
                             <Link href="/contact">
                                 <a>Book Now</a>
