@@ -4,6 +4,7 @@ import Router from 'next/router';
 import NProgress from 'nprogress';
 
 import Header from './Header/Header';
+import FooterComponent from './Footer/Footer';
 
 Router.onRouteChangeStart = url => {
     NProgress.start();
@@ -26,7 +27,7 @@ const Layout = ({ children }) => {
             </Head>
             <Header />
             {children}
-
+            <FooterComponent />
             <script
                 src='https://kit.fontawesome.com/8640556483.js'
                 crossOrigin='anonymous'
