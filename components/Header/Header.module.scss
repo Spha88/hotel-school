@@ -19,11 +19,17 @@
     // edge is at the top of the screen
     .Top {
         max-width: 100% !important;
-        .LogoContainer {
-            width: 70px !important;
-            height: 40px !important;
+        .LogoAndSlogan {
+            .LogoContainer {
+                width: 70px !important;
+                height: 40px !important;
+            }
+            .Slogan {
+                font-size: .6rem !important;
+            }
         }
     }
+
     .Content {
         background: var(--blue);
         margin: 3rem 0;
@@ -34,17 +40,38 @@
         margin: 0 auto;
         @include transition;
         
-        .LogoContainer {
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: cover;
-            margin: 5px 5px 5px 2rem;
-            width: 50px;
-            height: 70px;
-            @include transition;
-            img {
-                width:100%;
-                opacity: 0;
+        .LogoAndSlogan {
+            display: flex;
+            flex-grow: 2;
+            // border: 1px solid red;
+            .LogoContainer {
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: cover;
+                margin: 5px 5px 5px 2rem;
+                width: 50px;
+                height: 70px;
+                @include transition;
+                img {
+                    width:100%;
+                    opacity: 0;
+                }
+                @include media($mobile) {
+                    margin-left: 1rem;
+                }
+            }
+            .Slogan {
+                display: flex;
+                padding-left: 2rem;
+                align-items: center;
+                justify-content: center;
+                text-transform: uppercase;
+                font-size: .8rem;
+                letter-spacing: 1px;
+                @include transition;
+                @include media($mobile) {
+                    font-size: .6rem;
+                }
             }
         }
         ul {
@@ -81,11 +108,7 @@
             justify-content: center;
             align-items: center;
             margin-right: 2rem;
-            @include media($tablet) {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            }
+            
             button {
                 background: transparent;
                 border: none;
@@ -94,6 +117,14 @@
                 i {
                     font-size: 2.5rem;
                 }
+            }
+            @include media($tablet) {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            @include media($mobile) {
+                margin-right: 1rem;
             }
         }
     }

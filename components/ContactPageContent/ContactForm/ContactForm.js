@@ -114,7 +114,7 @@ const ContactForm = () => {
                 ></textarea>
             </div>
             <div className={styles.SendBtnContainer}>
-                <button>Submit</button>
+                <button>Send</button>
             </div>
             <Modal open={openModal} message={responseMsg} close={close} />
         </form>

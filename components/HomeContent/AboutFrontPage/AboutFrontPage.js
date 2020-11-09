@@ -17,7 +17,7 @@ const AboutFrontPage = () => {
                         </div>
                     </div>
                     <div className={styles.Paragraph}>
-                        <p>Prévenance Hotel School is a professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.</p>
+                        <p>Prévenance Hotel School is a <strong>CATHSETA accredited</strong> professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.</p>
                         <LinkButton href="/about" label="Read More" />
                     </div>
                 </div>

@@ -45,7 +45,7 @@ const CoursesContent = () => {
                                 This certificate programme is also suitable for people who have already worked as a cook/chef and want to upgrade their status to a professional chef.
 
                             </p>
-                            <LinkButton href="/contact" label="apply now" />
+                            <LinkButton href="/contact" label="Enrol Now" />
                         </div>
 
                     </div>
@@ -61,7 +61,7 @@ const CoursesContent = () => {
                             Through this course, candidates gain an internationally recognised qualification and improve their career options.
                             
                                 </p>
-                                <LinkButton href="/contact" label="apply now" />
+                                <LinkButton href="/contact" label="Enrol Now" />
                         </div>
 
 
@@ -74,7 +74,7 @@ const CoursesContent = () => {
                         <div>
                             <h2>Accommodation Services</h2>
                             <p>This qualification has been developed for the accommodation industry. It brings together all aspects of housekeeping and basic supervision. This qualification will professionalise the industry and is applicable to all sectors, from small bed and breakfast to large-scale hotels.</p>
-                            <LinkButton href="/contact" label="apply now" />
+                            <LinkButton href="/contact" label="Enrol Now" />
                         </div>
 
 

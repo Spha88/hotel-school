@@ -19,7 +19,7 @@ const AboutContent = () => {
                     </div>
                     <div className={styles.Paragraph}>
                         <p>
-                            Prévenance Hotel School is a professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.
+                            Prévenance Hotel School <strong>CATHSETA accredited</strong> is a professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.
                         </p>
                         <p>
                             Our students have a range of excellent courses to choose from. Through our intake program we help them find just the right course and career for their personality.

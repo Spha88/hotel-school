@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
+import $ from 'jquery';
+import Zoom from 'react-reveal/Zoom';
 
 import styles from './Header.module.scss';
 import NavLink from '../UI/NavLink';
 import Link from 'next/link';
-import $ from 'jquery';
+
 
 const Header = () => {
 
@@ -33,12 +35,22 @@ const Header = () => {
 
             <div className={styles.Content} id="desktopNav">
 
-                <div className={styles.LogoContainer}
-                    style={{ backgroundImage: "url(/images/logo_new.svg" }}
-                >
-                    <Link href="/">
-                        <a><img src="/images/logo_new.svg" alt="logo" /></a>
-                    </Link>
+                <div className={styles.LogoAndSlogan}>
+                    <div className={styles.LogoContainer}
+                        style={{ backgroundImage: "url(/images/logo_new.svg" }}
+                    >
+                        <Link href="/">
+                            <a><img src="/images/logo_new.svg" alt="logo" /></a>
+                        </Link>
+                    </div>
+
+                    <div className={styles.Slogan}>
+                        <Zoom delay={1000}>
+                            <Link href="/">
+                                <a><h2>Invest in yourself</h2></a>
+                            </Link>
+                        </Zoom>
+                    </div>
                 </div>
 
                 <ul>
