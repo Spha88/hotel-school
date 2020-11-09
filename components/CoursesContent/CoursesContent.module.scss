@@ -91,15 +91,6 @@
                             bottom: 0;
                         }
                     }
-                    a {
-                        display: inline-block;
-                        padding: .5rem 2rem;
-                        background: var(--blue);
-                        color: var(--white);
-                        font-family: var(--roboto);
-                        letter-spacing: 1px;
-                        font-size: 1rem;
-                    }
                 }
                 @include media($mobile) {
                     display: block;
