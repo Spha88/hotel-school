@@ -9,7 +9,7 @@ const AboutContent = () => {
                 <h2>WE ARE PRÉVENANCE HOTEL SCHOOL</h2>
             </header>
             <main>
-                <img src="/images/about1.jpg" alt="wine and wine glasses" />
+                <img src="/images/about1.jpeg" alt="wine and wine glasses" />
                 <div className={styles.AboutContent}>
                     <div className={styles.Heading}>
                         <div className={styles.HeadingInner}>
@@ -39,7 +39,7 @@ const AboutContent = () => {
                         <p>We have no doubt of the great impact our academy will make in the lives and careers of many young people across our country and the continent.</p>
                     </div>
                 </div>
-                <img src="/images/about2.jpg" alt="writing and studying" />
+                <img src="/images/about2.jpeg" alt="writing and studying" />
             </main>
         </section>
     )

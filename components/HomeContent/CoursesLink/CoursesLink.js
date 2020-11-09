@@ -17,7 +17,7 @@ const CoursesLink = () => {
             </div>
 
             <div className={styles.ImageTwo}
-                style={{ backgroundImage: "url(/images/image_two.jpg)" }}
+                style={{ backgroundImage: "url(/images/image_two.jpeg)" }}
             ></div>
 
         </div>

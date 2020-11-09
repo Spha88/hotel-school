@@ -32,7 +32,7 @@ const CoursesContent = () => {
                 <div className={styles.Courses}>
                     <div className={styles.Course}>
                         <div className={styles.CourseImage}
-                            style={{ backgroundImage: "url(/images/gallery_bg.jpg)" }}
+                            style={{ backgroundImage: "url(/images/pro_cooker.jpg)" }}
                         ></div>
                         <div>
                             <h2>Professional Cookery</h2>

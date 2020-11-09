@@ -5,7 +5,7 @@ import styles from './ContactLink.module.scss';
 const ContactLink = () => {
     return (
         <div className={styles.ContactLink}>
-            <div className={styles.TileOne} style={{ backgroundImage: "url(/images/conversation.jpg)" }}></div>
+            <div className={styles.TileOne} style={{ backgroundImage: "url(/images/dining_area.jpeg)" }}></div>
             <div className={styles.TileTwo}>
                 <Link href="/contact">
                     <a className={styles.LinkTile}><span>Contact Us  <br /> <i className="fas fa-map-marker-alt"></i></span></a>

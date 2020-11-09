@@ -6,7 +6,7 @@ const GalleryCampusLife = () => {
 
     return (
         <div className={styles.GalleryCampusLife}>
-            <div className={styles.GalleryLink} style={{ backgroundImage: "url(/images/gallery_bg.jpg" }}>
+            <div className={styles.GalleryLink} style={{ backgroundImage: "url(/images/gallery_bg.jpeg" }}>
                 <Link href="/gallery">
                     <a className={styles.LinkTile}></a>
                 </Link>
