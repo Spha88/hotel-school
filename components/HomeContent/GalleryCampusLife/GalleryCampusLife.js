@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link as ScrollToLink } from 'react-scroll';
+
 import styles from './GalleryCampusLife.module.scss'
 import Link from 'next/link';
 
@@ -12,9 +14,13 @@ const GalleryCampusLife = () => {
                 </Link>
             </div>
             <div className={styles.CampusLifeLink}>
-                <Link href="/campus-life">
+                <ScrollToLink
+                    to="campus-life-section"
+                    smooth={true}
+                    duration={300}
+                >
                     <a className={styles.LinkTile}>Campus Life</a>
-                </Link>
+                </ScrollToLink>
             </div>
             <div
                 className={styles.Video}
