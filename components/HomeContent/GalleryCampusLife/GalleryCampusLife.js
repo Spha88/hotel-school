@@ -16,8 +16,8 @@ const GalleryCampusLife = () => {
             <div className={styles.CampusLifeLink}>
                 <ScrollToLink
                     to="campus-life-section"
-                    smooth={true}
-                    duration={300}
+                    offset={-50}
+                    duration={1000}
                 >
                     <a className={styles.LinkTile}>Campus Life</a>
                 </ScrollToLink>
@@ -26,7 +26,7 @@ const GalleryCampusLife = () => {
                 className={styles.Video}
                 style={{ backgroundImage: "url(/images/video_placeholder.jpg)" }}
             >
-                <video width="100%" height="100%" loop autoPlay muted>
+                <video width="100%" width="500px" height="100%" autoPlay muted>
                     <source src="/videos/video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>

@@ -18,14 +18,14 @@ const Header = () => {
         const distance = nav.offset().top;
         const $window = $(window);
 
-        // $window.scroll(function () {
-        //     // console.log(nav);
-        //     if ($window.scrollTop() >= (distance + 40)) {
-        //         nav.addClass(styles.Top);
-        //     } else {
-        //         nav.removeClass(styles.Top)
-        //     }
-        // });
+        $window.scroll(function () {
+            // console.log(nav);
+            if ($window.scrollTop() >= (distance + 40)) {
+                nav.addClass(styles.Top);
+            } else {
+                nav.removeClass(styles.Top)
+            }
+        });
     }, [])
 
     return (

@@ -31,15 +31,6 @@
                 line-height: 2rem;
                 letter-spacing: 0.09em;
             }
-            a {
-                display: inline-block;
-                background: var(--blue);
-                padding: 1rem 3rem;
-                span {
-                    display: inline-block;
-                    padding-right: 1rem;
-                }
-            }
         }
         @include media($laptop) {
             display: block;

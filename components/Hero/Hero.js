@@ -13,7 +13,6 @@ const Hero = () => {
                 <div className={styles.CallToAction}>
                     <Link href="/contact">
                         <a>Enroll Now <i className="material-icons">keyboard_arrow_right</i></a>
-
                     </Link>
                 </div>
             </div>

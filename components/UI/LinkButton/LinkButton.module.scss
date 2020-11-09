@@ -1,0 +1,54 @@
+.LinkButton {
+    display: inline-flex;
+    padding: .6rem 2rem;
+    justify-content: center;
+    align-items: center;
+    background: var(--blue);
+    font-family: var(--roboto);
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-shadow: none;
+    position: relative;
+    i {
+        position: relative;
+        margin-left: 10px;
+        display: inline-block;
+        font-size: 2rem;
+    }
+    &:after {
+        border: 1px solid white;
+        content: '';
+        display: block;
+        position: absolute;
+        top: -4px;
+        bottom: -4px;
+        right: -4px;
+        left: -4px;
+        transition: all 400ms ease;
+        opacity: 0;
+    }
+    &:hover {
+        &::after {
+            opacity: 1;
+        }
+        i {
+            animation: point 400ms ease alternate;
+        }
+    }
+}
+
+@keyframes point {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 import styles from './AboutFrontPage.module.scss';
 import Container from '../../UI/Container';
+import LinkButton from '../../UI/LinkButton/LinkButton';
 
 const AboutFrontPage = () => {
     return (
@@ -17,12 +18,7 @@ const AboutFrontPage = () => {
                     </div>
                     <div className={styles.Paragraph}>
                         <p>Prévenance Hotel School is a professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.</p>
-                        <Link href="/about">
-                            <a><span>Read More</span> <i
-                                className='fas fa-chevron-right'
-                                aria-hidden='true'
-                            ></i></a>
-                        </Link>
+                        <LinkButton href="/about" label="Read More" />
                     </div>
                 </div>
             </Container>
