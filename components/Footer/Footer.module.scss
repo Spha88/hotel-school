@@ -16,7 +16,9 @@
                     display: flex;
                     align-items: center;
                     padding: 1rem;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                    color: var(--white);
                     font-family: var(--roboto);
                     i {
                         display: inline-block;
