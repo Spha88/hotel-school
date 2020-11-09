@@ -6,7 +6,7 @@ const CoursesContent = () => {
     return (
         <section className={styles.CoursesContent}>
             <header>
-                <h2>Our Course</h2>
+                <h2>Our Course</h2> 
             </header>
             <main>
                 <div className={styles.RegistrationDate}>

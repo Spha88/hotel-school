@@ -11,7 +11,8 @@
     .HeroContent {
         width: 100%;
         max-width: 1000px;
-        color: var(--blue);
+        color: var(--white);
+        text-shadow: 2px 2px 2px black;
         img {
             padding-bottom: 2rem;
             @include media($mobile) {
@@ -50,7 +51,7 @@
         background-repeat: no-repeat;
         background-position: top left;
         @include media($mobile) {
-            background-position: top center;
+            background-position: left center;
         }
     }
 }
