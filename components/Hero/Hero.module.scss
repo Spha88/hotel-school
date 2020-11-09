@@ -13,17 +13,67 @@
         max-width: 1000px;
         color: var(--white);
         text-shadow: 2px 2px 2px black;
-        img {
-            padding-bottom: 2rem;
-            @include media($mobile) {
-                width: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .Logo {
+            text-align: center;
+            img {
+                padding-bottom: .5rem;
+                @include media($mobile) {
+                    width: 200px;
+                }
+            }
+            h1 {
+                padding-bottom: 1rem;
+                font-weight: bold;
+                font-size: 2rem;
+                text-transform: uppercase;
             }
         }
-        h1 {
-            padding-bottom: 1rem;
-            font-weight: bold;
-            font-size: 2rem;
-            text-transform: uppercase;
+        .CallToAction {
+            a {
+                display: inline-block;
+                width: 250px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background: var(--blue);
+                font-family: var(--roboto);
+                letter-spacing: 1px;
+                font-weight: bold;
+                font-size: 1.2rem;
+                text-transform: uppercase;
+                text-shadow: none;
+                position: relative;
+                i {
+                    position: relative;
+                    margin-left: 10px;
+                    display: block;
+                }
+                &:after {
+                    border: 1px solid white;
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: -4px;
+                    bottom: -4px;
+                    right: -4px;
+                    left: -4px;
+                    transition: all 400ms ease;
+                    opacity: 0;
+                }
+                &:hover {
+                    &::after {
+                        opacity: 1;
+                    }
+                    i {
+                        animation: point 400ms ease alternate;
+                    }
+                }
+
+            }
         }
         @include media($laptop) {
             max-width: 600px;
@@ -53,5 +103,19 @@
         @include media($mobile) {
             background-position: left center;
         }
+    }
+}
+
+@keyframes point {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0);
     }
 }

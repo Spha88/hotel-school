@@ -23,19 +23,12 @@ export default function testimonials() {
                     <Slider {...settings}>
                         <div className={styles.Slide}>
 
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste ad aspernatur exercitationem. Voluptate at quia cumque itaque rerum, ad corporis iusto distinctio nulla porro maxime odit reiciendis placeat soluta consectetur</p>
-                            <h3>S Mehlomakulu</h3>
+                            <p>This is the space where we allow our students and members of the public who have experienced any of our range of services to leave a message.
+                            We are more than delighted to receive feedback about how well or not so well, we are doing so we can either enhance or improve where necessary.
+                            Feel free to share your message with us and it will be published here!</p>
+                            <h3></h3>
                         </div>
-                        <div className={styles.Slide}>
 
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste ad aspernatur exercitationem. Voluptate at quia cumque itaque rerum, ad corporis iusto distinctio nulla porro maxime odit reiciendis placeat soluta consectetur</p>
-                            <h3>J Doe</h3>
-                        </div>
-                        <div className={styles.Slide}>
-
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iste ad aspernatur exercitationem. Voluptate at quia cumque itaque rerum, ad corporis iusto distinctio nulla porro maxime odit reiciendis placeat soluta consectetur</p>
-                            <h3>J Smith</h3>
-                        </div>
                     </Slider></div></div>
         </section>
     );
