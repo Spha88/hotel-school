@@ -13,21 +13,22 @@ const CampusLife = () => {
                 </header>
                 <main>
                     <div className={styles.CampusLifeImages}>
-                        <Zoom delay={200}>
-                            <div className={styles.Tile1}
-                                style={{ backgroundImage: "url(/images/campus1.jpeg)" }}></div>
-                        </Zoom>
+
                         <Zoom delay={400}>
                             <div className={styles.Tile1}
-                                style={{ backgroundImage: "url(/images/campus2.jpeg)" }}></div>
+                                style={{ backgroundImage: "url(/images/campus2.jpg)" }}></div>
                         </Zoom>
                         <Zoom delay={600}>
                             <div className={styles.Tile1}
-                                style={{ backgroundImage: "url(/images/campus3.jpeg)" }}></div>
+                                style={{ backgroundImage: "url(/images/campus3.jpg)" }}></div>
                         </Zoom>
                         <Zoom delay={800}>
                             <div className={styles.Tile1}
-                                style={{ backgroundImage: "url(/images/campus4.jpeg)" }}></div>
+                                style={{ backgroundImage: "url(/images/campus3.jpeg)" }}></div>
+                        </Zoom>
+                        <Zoom delay={200}>
+                            <div className={styles.Tile1}
+                                style={{ backgroundImage: "url(/images/campus1.jpeg)" }}></div>
                         </Zoom>
                     </div>
                     <div className={styles.Content}>
