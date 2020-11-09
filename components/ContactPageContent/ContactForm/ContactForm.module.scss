@@ -18,7 +18,7 @@
             }
             i {
                 position: absolute;
-                top: 50%;
+                top: 30%;
                 left: .5rem;
                 transform: translateY(-50%);
             }
@@ -43,6 +43,16 @@
                 }
             }
         }
+        .Error {
+            display: flex;
+            align-items: center;
+            height: 25px;
+            padding-left: 3rem;
+            font-family: var(--roboto);
+            font-size: .9rem;
+            font-weight: bold;
+            color: rgb(255, 0, 0);
+        }
     }
     .FormGroup {
         margin-bottom: 2rem;
@@ -61,12 +71,12 @@
         }
         i {
             position: absolute;
-            top: 50%;
+            top: 30%;
             left: .5rem;
             transform: translateY(-50%);
         }
         i.inTextArea {
-            top: 3.5rem;
+            top: 4.5rem;
         }
         input, textarea {
             width: 100%;
@@ -81,8 +91,17 @@
         }
         textarea {
             border: 1px solid;
-            margin-top: .5rem;
             padding: 1rem 3rem;
+        }
+        .Error {
+            display: flex;
+            align-items: center;
+            height: 25px;
+            padding-left: 3rem;
+            font-family: var(--roboto);
+            font-size: .9rem;
+            color: rgb(255, 0, 0);
+            font-weight: bold;
         }
     }
     .SendBtnContainer {

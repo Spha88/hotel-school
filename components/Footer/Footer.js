@@ -11,7 +11,7 @@ const FooterComponent = () => {
                 </ul>
             </div>
             <div className={styles.Developer}>
-
+                <a href="http://www.netslate.co.za">Designed and Developed @<br />Netslate</a>
             </div>
         </footer>
     )
