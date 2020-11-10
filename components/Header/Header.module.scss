@@ -114,8 +114,8 @@
                 border: none;
                 outline: none;
                 color: var(--white);
-                i {
-                    font-size: 2.5rem;
+                svg {
+                    width: 30px;
                 }
             }
             @include media($tablet) {
