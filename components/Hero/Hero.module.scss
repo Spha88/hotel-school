@@ -105,6 +105,9 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top left;
+        img {
+            width: 100%;
+        }
         @include media($mobile) {
             background-position: left center;
         }

@@ -3,24 +3,29 @@ import Link from 'next/link';
 import Zoom from 'react-reveal/Zoom';
 import Flip from 'react-reveal/Flip';
 import Bounce from 'react-reveal/Bounce';
-
 import styles from './Hero.module.scss'
 
 
 const Hero = () => {
+    const bgLoaded = () => {
+        alert('Image completed loading')
+    }
+    const error = () => {
+        console.log("There has been an error loading your image");
+    }
     return (
         <div className={styles.Hero}>
             <div className={styles.HeroContent}>
                 <div className={styles.Logo}>
-                    <Flip left>
+                    <Zoom>
                         <img src="/images/logo_square_blue_bg_white.png" alt="logo" />
-                    </Flip>
+                    </Zoom>
                     <Zoom>
                         <h1>Invest in yourself</h1>
                     </Zoom>
                 </div>
                 <div className={styles.CallToAction}>
-                    <Bounce right delay={1000}>
+                    <Zoom delay={1000}>
                         <Link href="/contact">
                             <a>
                                 Enrol Now
@@ -29,10 +34,11 @@ const Hero = () => {
                                 </svg>
                             </a>
                         </Link>
-                    </Bounce>
+                    </Zoom>
                 </div>
             </div>
-            <div className={styles.HeroBackground} style={{ backgroundImage: "url(/images/bg2.jpeg)" }}></div>
+            <div className={styles.HeroBackground} style={{ backgroundImage: "url(/images/bg2.jpeg)" }}>
+            </div>
         </div>
     )
 }

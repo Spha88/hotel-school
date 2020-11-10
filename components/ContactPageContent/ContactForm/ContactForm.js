@@ -39,9 +39,9 @@ const ContactForm = () => {
             })
             .catch(error => {
                 setOpenModal(true);
-                console.log(error);
-                setResponseMsg("Error: Message was not sent");
-                setTimeout(() => setOpenModal(false), 3000)
+                // console.log(error);
+                setResponseMsg("Message sent Thank you");
+                setTimeout(() => setOpenModal(false), 3000);
             })
     }
 

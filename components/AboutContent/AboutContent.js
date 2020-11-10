@@ -10,7 +10,7 @@ const AboutContent = () => {
                 <h2>WE ARE PRÉVENANCE HOTEL SCHOOL</h2>
             </header>
             <main>
-                <Zoom><img src="/images/about1.jpeg" alt="wine and wine glasses" /></Zoom>
+                <img src="/images/about1.jpeg" alt="wine and wine glasses" />
                 <div className={styles.AboutContent}>
                     <div className={styles.Heading}>
                         <div className={styles.HeadingInner}>
