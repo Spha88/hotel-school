@@ -32,7 +32,7 @@ const CampusLife = () => {
                         </Zoom>
                     </div>
                     <div className={styles.Content}>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quia, obcaecati quis aspernatur quaerat eum omnis id. Ex esse, quos asperiores amet maiores vero ea beatae sequi totam quibusdam alias quas, vel non, quisquam nobis aut accusamus eveniet eius omnis atque recusandae libero ipsam veritatis. Iste, libero blanditiis! Molestiae, doloribus.</p>
+                        <p>Given the diversity of cultures on our campuses, our aim is to create a vibrant, multicultural environment pinned on academic excellence and able to produce well-rounded graduates. As an institution committed to transformation, we work tirelessly to make sure everyone feels at home in all our campuses. Academic success is important, but student life is also about having fun and exploring your talents necessary for the world beyond your studies. We encourage all our students to give back and build up experience through our community engagement projects.</p>
                     </div>
                 </main>
             </Container>

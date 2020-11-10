@@ -94,7 +94,7 @@ export const photos = [
         height: 3
     },
     {
-        src: "images/gallery/food3.jpeg",
+        src: "images/gallery/food5.jpeg",
         width: 3,
         height: 4
     },
