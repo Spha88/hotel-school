@@ -84,9 +84,44 @@ export const photos = [
         height: 3
     },
     {
+        src: "images/gallery/garden.jpeg",
+        width: 4,
+        height: 3
+    },
+    {
+        src: "images/gallery/garden2.jpeg",
+        width: 4,
+        height: 3
+    },
+    {
+        src: "images/gallery/garden3.jpeg",
+        width: 4,
+        height: 3
+    },
+    {
+        src: "images/gallery/garden4.jpeg",
+        width: 4,
+        height: 3
+    },
+    {
+        src: "images/gallery/food9.jpeg",
+        width: 1,
+        height: 1
+    },
+    {
         src: "images/gallery/food1.jpeg",
         width: 4,
         height: 3
+    },
+    {
+        src: "images/gallery/food10.jpeg",
+        width: 1,
+        height: 1
+    },
+    {
+        src: "images/gallery/food6.jpeg",
+        width: 1,
+        height: 1
     },
     {
         src: "images/gallery/food2.jpeg",
@@ -94,9 +129,19 @@ export const photos = [
         height: 3
     },
     {
-        src: "images/gallery/food5.jpeg",
+        src: "images/gallery/food7.jpeg",
         width: 3,
         height: 4
+    },
+    {
+        src: "images/gallery/food8.jpeg",
+        width: 3,
+        height: 4
+    },
+    {
+        src: "images/gallery/food5.jpeg",
+        width: 5,
+        height: 7
     },
     {
         src: "images/gallery/food4.jpeg",
