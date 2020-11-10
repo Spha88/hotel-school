@@ -65,10 +65,10 @@ const AboutContent = () => {
                         </Zoom>
                         <Zoom>
                             <ul>
-                                <li><strong> Kimberley Campus</strong> – has a higher demand volume for Professional Cookery training</li>
-                                <li><strong>Upington Campus</strong> – Food & Beverage Services and Accommodation Services are the in-demand skills for most of the hospitality establishments.</li>
-                                <li><strong>Kuruman Campus</strong> – through this campus we respond to the high demand for Accommodation Services training, in and around the John Taolo Gaetsewe district.</li>
-                                <li><strong>De Aar Campus</strong> – presumably the presence of the renewable energy operations in the area has hiked the demand for improved standards, both for Accommodation and Food & Beverage Services.</li>
+                                <li><span>Kimberley Campus</span> – has a higher demand volume for Professional Cookery training</li>
+                                <li><span>Upington Campus</span> – Food & Beverage Services and Accommodation Services are the in-demand skills for most of the hospitality establishments.</li>
+                                <li><span>Kuruman Campus</span> – through this campus we respond to the high demand for Accommodation Services training, in and around the John Taolo Gaetsewe district.</li>
+                                <li><span>De Aar Campus</span> – presumably the presence of the renewable energy operations in the area has hiked the demand for improved standards, both for Accommodation and Food & Beverage Services.</li>
                             </ul>
                         </Zoom>
                         <Zoom>
