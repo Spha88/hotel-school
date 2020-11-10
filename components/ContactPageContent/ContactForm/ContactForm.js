@@ -40,7 +40,7 @@ const ContactForm = () => {
             .catch(error => {
                 setOpenModal(true);
                 // console.log(error);
-                setResponseMsg("Message sent Thank you");
+                setResponseMsg("Message sent");
                 setTimeout(() => setOpenModal(false), 3000);
             })
     }

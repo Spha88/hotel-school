@@ -14,7 +14,7 @@
             height: auto;
             margin-bottom: 2rem;
         }
-        .AboutContent {
+        .Content {
             padding: 3rem 0;
             display: flex;
             .Heading {
@@ -34,14 +34,20 @@
                 }
             }
             .Paragraph {
-                width: 50%;
+                width: 60%;
                 font-size: 1.1rem;
                 line-height: 1.4rem;
                 letter-spacing: 0.05em;
+                ul {
+                    padding-left: 0;
+                    li {
+                        margin-bottom: 1rem;
+                    }
+                }
                 p {
                     margin: 0;
-                    padding-bottom: 1.5rem;
-                    line-height: 2rem;
+                    padding-bottom: 1.3rem;
+                    line-height: 1.8rem;
                     letter-spacing: 0.05em;
                     &:nth-child(1) {
                         font-size: 1.3em;
