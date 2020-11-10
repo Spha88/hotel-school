@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from 'next/link';
+import Zoom from 'react-reveal/Zoom';
+
 import styles from './CoursesContent.module.scss';
 import LinkButton from '../UI/LinkButton/LinkButton';
 
@@ -24,13 +25,16 @@ const CoursesContent = () => {
                         </p>
                     </div>
                 </div>
-                <div className={styles.OnlineCourses}>
-                    <h2>Online Courses</h2>
-                    <p>
-                    Our online course offering is designed to extend our services even to those who may not be able to join our physical sessions.
-                    </p>
-                </div>
+                <Zoom>
+                    <div className={styles.OnlineCourses}>
+                        <h2>Online Courses</h2>
+                        <p>
+                        Our online course offering is designed to extend our services even to those who may not be able to join our physical sessions.
+                        </p>
+                    </div>
+                </Zoom>
                 <div className={styles.Courses}>
+                    <Zoom>
                     <div className={styles.Course}>
                         <div className={styles.CourseImage}
                             style={{ backgroundImage: "url(/images/pro_cooker.jpg)" }}
@@ -47,25 +51,27 @@ const CoursesContent = () => {
                             </p>
                             <LinkButton href="/contact" label="Enrol Now" />
                         </div>
-
                     </div>
-                    <div className={styles.Course}>
+                    </Zoom>
 
-                        <div className={styles.CourseImage}
-                            style={{ backgroundImage: "url(/images/food_bev.jpg)" }}
-                        ></div>
-                        <div>
-                            <h2>Food & Beverage Services</h2>
-                            <p>
-                            Food and Beverage Services is the process of preparing, presenting and serving of food and beverages to the customers.
-                            Through this course, candidates gain an internationally recognised qualification and improve their career options.
-                            
-                                </p>
-                                <LinkButton href="/contact" label="Enrol Now" />
+                    <Zoom>
+                        <div className={styles.Course}>
+                            <div className={styles.CourseImage}
+                                style={{ backgroundImage: "url(/images/food_bev.jpg)" }}
+                            ></div>
+                            <div>
+                                <h2>Food & Beverage Services</h2>
+                                <p>
+                                Food and Beverage Services is the process of preparing, presenting and serving of food and beverages to the customers.
+                                Through this course, candidates gain an internationally recognised qualification and improve their career options.
+                                
+                                    </p>
+                                    <LinkButton href="/contact" label="Enrol Now" />
+                            </div>
                         </div>
+                    </Zoom>
 
-
-                    </div>
+                    <Zoom>
                     <div className={styles.Course}>
 
                         <div className={styles.CourseImage}
@@ -79,6 +85,7 @@ const CoursesContent = () => {
 
 
                     </div>
+                    </Zoom>
                 </div>
             </main>
         </section>
