@@ -6,25 +6,28 @@ import LinkButton from '../UI/LinkButton/LinkButton';
 
 const CoursesContent = () => {
     return (
-        <section className={styles.CoursesContent}>
+        <section className={styles.CoursesContent}> 
             <header>
                 <h2>Our Course</h2> 
             </header>
             <main>
                 <div className={styles.RegistrationDate}>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-                    </svg>
                     <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
                         <h3>Registration Starts:</h3>
                         <p className={styles.Date}>
-                            November 2020
+                            November 2020 to March 2021
                         </p>
-                        <p>
-                            Only one intake per year
-                        </p>
+                        
                     </div>
+                    <p>
+                        Only one intake per year
+                    </p>
                 </div>
+
+
                 <Zoom>
                     <div className={styles.OnlineCourses}>
                         <h2>Online Courses</h2>

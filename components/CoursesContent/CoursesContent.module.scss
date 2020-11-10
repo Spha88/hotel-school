@@ -13,35 +13,33 @@
             background-color: var(--blue);
             color: var(--white);
             padding: 3rem 2rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             margin-bottom: 2rem;
             border: 1px solid var(--black);
-            svg {
-                width: 50px;
-            }
+            
             div {
                 padding: 0 2rem;
                 text-align: center;
+                svg {
+                    width: 50px;
+                    margin-bottom: 1rem;
+                }
                 h3 {
                     font-size: 1rem;
-                    margin-bottom: 2rem;
                     text-transform: uppercase;
                 }
                 .Date {
                     font-weight: bold;
                     font-family: var(--roboto);
                     font-size: 1.5rem;
-                    padding-bottom: .5rem;
+                    padding-bottom: 3rem;
                 }
-                p {
-                    font-size: 1.2rem;
-                    margin: 0;
-                    font-weight: 300;
-                    font-family: var(--roboto);
-                }
-                
+            }
+            p {
+                font-size: 1.2rem;
+                margin: 0;
+                font-weight: 300;
+                font-family: var(--roboto);
+                text-align: center;
             }
         }
         .OnlineCourses {
