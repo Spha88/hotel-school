@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from 'next/link'
+import Zoom from 'react-reveal/Zoom';
 
 import styles from './AboutFrontPage.module.scss';
 import Container from '../../UI/Container';
@@ -16,10 +16,16 @@ const AboutFrontPage = () => {
                             <div className={styles.Line}></div>
                         </div>
                     </div>
+
                     <div className={styles.Paragraph}>
-                        <p>Prévenance Hotel School is a <strong>CATHSETA accredited</strong> professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.</p>
-                        <LinkButton href="/about" label="Read More" />
+                        <Zoom>
+                            <p>Prévenance Hotel School is a <strong>CATHSETA accredited</strong> professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.</p>
+                        </Zoom>
+                        <Zoom delay={1000}>
+                            <LinkButton href="/about" label="Read More" />
+                        </Zoom>
                     </div>
+
                 </div>
             </Container>
         </div>
