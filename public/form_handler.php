@@ -133,7 +133,7 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ){
 
     //sending the email
         if ($OK == true) {
-          $to = "mr.smehlomakulu@gmail.com";
+          $to = "info@shprevenance.co.za";
           $emailSubject = "Online query: ".$subject;
           $body = "Name of Client: ".$name."\nContact Number: ".$number."\n\nMessage: \n".$message;
           $headers =  "From: $name <$email>"; 
