@@ -12,7 +12,12 @@ const Hero = () => {
                 </div>
                 <div className={styles.CallToAction}>
                     <Link href="/contact">
-                        <a>Enrol Now <i className="material-icons">keyboard_arrow_right</i></a>
+                        <a>
+                            Enrol Now
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                        </a>
                     </Link>
                 </div>
             </div>

@@ -46,10 +46,12 @@
                 text-transform: uppercase;
                 text-shadow: none;
                 position: relative;
-                i {
+                svg {
                     position: relative;
                     margin-left: 10px;
                     display: block;
+                    width: 25px;
+
                 }
                 &:after {
                     border: 1px solid white;
@@ -67,7 +69,7 @@
                     &::after {
                         opacity: 1;
                     }
-                    i {
+                    svg {
                         animation: point 400ms ease alternate;
                     }
                 }
