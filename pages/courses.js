@@ -8,8 +8,7 @@ export default function Home({ about }) {
     return (
         <Layout>
             <Head>
-                <title>Preverance HS | about</title>
-                <link rel='icon' href='/favicon.ico' />
+                <title>Preverance HS | Courses</title>
             </Head>
             <Container>
                 <CoursesContent />

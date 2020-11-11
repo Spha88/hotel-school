@@ -65,14 +65,14 @@ const AboutContent = () => {
                         </Zoom>
                         <Zoom>
                             <ul>
-                                <li><span>Kimberley Campus</span> – has a higher demand volume for Professional Cookery training</li>
+                                <li><span>Kimberley Campus</span> – has a higher demand volume for Professional Cookery training.</li>
                                 <li><span>Upington Campus</span> – Food & Beverage Services and Accommodation Services are the in-demand skills for most of the hospitality establishments.</li>
                                 <li><span>Kuruman Campus</span> – through this campus we respond to the high demand for Accommodation Services training, in and around the John Taolo Gaetsewe district.</li>
                                 <li><span>De Aar Campus</span> – presumably the presence of the renewable energy operations in the area has hiked the demand for improved standards, both for Accommodation and Food & Beverage Services.</li>
                             </ul>
                         </Zoom>
                         <Zoom>
-                            <p>Through our various campuses, we are therefore able to meet the various hospitality demand for skills across the province.</p>
+                            <p>Through our various campuses, we are therefore able to meet the various hospitality demands for skills across the province.</p>
                             <p>Whilst our courses are offered across all campuses, we encourage our students to choose a campus that can provide an environment resonant with their preferred area of study.</p>
                         </Zoom>
                     </div>

@@ -10,7 +10,6 @@ export default function Home({ about }) {
         <Layout>
             <Head>
                 <title>Preverance HS | about</title>
-                <link rel='icon' href='/favicon.ico' />
             </Head>
             <Container>
                 <AboutContent />
