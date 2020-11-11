@@ -37,7 +37,7 @@ const Hero = () => {
                     </Zoom>
                 </div>
             </div>
-            <div className={styles.HeroBackground} style={{ backgroundImage: "url(/images/bg2.jpeg)" }}>
+            <div className={styles.HeroBackground} style={{ backgroundImage: "url(/images/bg2.jpg)" }}>
             </div>
         </div>
     )
