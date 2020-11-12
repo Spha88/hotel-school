@@ -1,0 +1,17 @@
+.PageLoader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--blue);
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.StopLoading {
+    display: none;
+}
