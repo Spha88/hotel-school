@@ -73,7 +73,6 @@ const AboutContent = () => {
                         </Zoom>
                         <Zoom>
                             <p>Through our various campuses, we are therefore able to meet the various hospitality demands for skills across the province.</p>
-                            <p>Whilst our courses are offered across all campuses, we encourage our students to choose a campus that can provide an environment resonant with their preferred area of study.</p>
                         </Zoom>
                     </div>
                 </div>
