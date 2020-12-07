@@ -7,7 +7,7 @@ const AboutContent = () => {
     return (
         <section className={styles.AboutContent}>
             <header>
-                <h2>WE ARE PRÉVENANCE HOTEL SCHOOL</h2>
+                <h2>WE ARE PRÉVENANCE HOSPITALITY SCHOOL</h2>
             </header>
             <main>
                 <img src="/images/about1.jpeg" alt="wine and wine glasses" />
@@ -21,7 +21,7 @@ const AboutContent = () => {
                     <div className={styles.Paragraph}>
                         <Zoom>
                             <p>
-                                Prévenance Hotel School <strong>CATHSETA accredited</strong> is a professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.
+                                Prévenance Hospitality School <strong>CATHSETA accredited</strong> is a professional academy focused on training students who intend to establish themselves as leaders in the hospitality industry.
                             </p>
                         </Zoom>
                         <Zoom>
@@ -40,7 +40,7 @@ const AboutContent = () => {
                         </Zoom>
 
                         <Zoom>
-                            <p>We started Prévenance Hotel School as a result of our passion for excellence in service.
+                            <p>We started Prévenance Hospitality School as a result of our passion for excellence in service.
                             Having been in the hospitality space for a number of years, it became clear that gaps and areas of improvement exist in our industry. We soon realised that no amount screaming, hiring and firing will improve the service offering by a number of hospitality establishments, from guest houses to hotels.
                             </p>
                         </Zoom>
