@@ -18,7 +18,7 @@ const Hero = () => {
             <div className={styles.HeroContent}>
                 <div className={styles.Logo}>
                     <Zoom>
-                        <img src="/images/logo_square_blue_bg_white.png" alt="logo" />
+                        <img src="/images/new_logo.png" alt="logo" />
                     </Zoom>
                     <Zoom>
                         <h1>Invest in yourself</h1>
