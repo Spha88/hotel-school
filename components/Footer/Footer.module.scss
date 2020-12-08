@@ -25,6 +25,12 @@
                         padding-right: 10px;
                         font-size: 20px;
                     }
+                    svg {
+                        fill: #fff;
+                        width: 18px;
+                        display: inline-block;
+                        margin-right: 10px;
+                    }
                 }
             }
             @include media($mobile) {
